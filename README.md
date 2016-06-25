@@ -22,15 +22,15 @@ Run compiled:
 You need to send JSON requests like:
 ```json
 {
-  'url': 'http://some.url'
+  "url": "http://some.url"
 }
 ```
 
 Response is shortened URL like:
 ```json
 {
-  'url': 'http://some.url',
-  'shorten_url': 'http://localhost:3000/s4'
+  "url": "http://some.url",
+  "shorten_url": "http://localhost:3000/s4"
 }
 ```
 
